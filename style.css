@@ -1,0 +1,157 @@
+/* CSS files add styling rules to your content */
+
+/* STYLE NAV BAR */
+nav{
+  text-align: right;
+  font-family: staatliches;
+  padding: 20px;
+}
+
+li{
+  display:inline;
+}
+
+li a{
+  text-decoration: none;
+  color: black;
+  font-size: 25px;
+  padding: 15px;
+}
+
+li a:hover{
+  background-color: #c8c8c8;
+}
+
+/* projects */
+
+.row{
+  display: flex;
+  justify-content: space-around;
+}
+
+img{
+  width: 500px;
+}
+
+#super{
+  width: 425px;
+}
+
+.projects{
+  padding: 50px; 
+}
+
+#TV{
+  width: 540px;
+}
+
+#gun{
+  width: 520px;
+}
+
+.font{
+  font-family: special elite;
+  margin-left: 20px;
+  color: #1e7ec7;
+}
+
+.link{
+  color: #9537cc;
+  font-family: courier prime;
+}
+
+.description{
+  font-size: 18px;
+}
+
+/* home */
+#background{
+  width:1245px;
+}
+
+#bg{
+   position: relative;
+  text-align: center;
+  color: white;
+}
+
+#text{
+   position: absolute;
+  top: 20%;
+  right: 30px;
+  font-size: 130px;
+}
+
+/* about */
+#intro{
+  display: flex;
+  justify-content: space-around;
+}
+
+
+#code{
+  display: flex;
+  justify-content: space-around;
+}
+
+.logo{
+  width: 150px;
+}
+
+#profile{
+  width: 300px;
+  padding: 100px;
+  border-radius:30%;
+}
+
+#bib{
+  padding:100px;
+  font-size: 30px;
+}
+
+#facts{
+  display: flex;
+  justify-content: space-around;
+  font-size: 22px;
+  margin-bottom: 120px;
+}
+
+#random{
+  width:300px;
+  border-radius:20%;
+}
+
+#lang{
+  margin-left: 20px;
+  font-size: 30px;
+  font-family: special elite; 
+  color: #9c1e35;
+
+}
+
+#list{
+  font-family: special elite; 
+  color: #9c1e35;
+}
+
+/* contacts */
+.contact{
+  display: flex;
+  justify-content: space-around;
+  }
+
+#social{
+  font-family:special elite;
+  margin-left: 20px;
+  color:#0ba32a;
+  font-size: 30px;
+}
+
+.go{
+  width: 300px;
+}
+
+.diff{
+  width: 300px;
+  margin-top: 30px;
+}
